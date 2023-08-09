@@ -1,0 +1,92 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+body {
+    background-image: url(./img/ladrillo.jpg);
+    background-size: 100%;
+    margin: 0%;
+}
+.menu{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+.img {
+    font-size: 3.5em;
+}
+h3{
+    text-align: center;
+    font-size: 2em;
+}
+p{
+    font-size: 26px;
+    line-height: 1.5; 
+    margin: 5%;
+}
+.atras{
+    background-color: rgb(31, 138, 224);
+}
+.aside{
+    text-align: right;
+    font-size: 1.79em;
+    margin: auto;
+
+}
+.articulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+article{
+    font-size: 2.5em;
+    margin: 10%;
+    color: blue;
+}
+header{
+    background-image: url(./img/manatan.png);
+    background-size: 100%;
+}
+.form {
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+ul, ol {
+    list-style:none;
+}
+
+.nav li a {
+    background-color:#1100ff;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#004bee;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: left;
+    margin: 0%
+}
+
+
